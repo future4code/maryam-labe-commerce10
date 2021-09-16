@@ -34,7 +34,7 @@ const BarraDireita = styled.div`
     margin-right: 20px;
     }
 `;
-const MenuLink = styled.a``;
+const MenuImg = styled.a``;
 
 function Header() {
     return (
