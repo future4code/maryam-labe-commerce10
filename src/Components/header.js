@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import carrinho from '../img/outline_shopping_cart_black_24dp.png'
+import account from '../img/outline_account_circle_black_24dp.png'
+
 
 
 
@@ -34,20 +37,21 @@ const BarraDireita = styled.div`
     margin-right: 20px;
     }
 `;
-const MenuImg = styled.a``;
+
+
 
 function Header() {
     return (
         <Div>
         <BarraHeader>
-            <BarraEsquerda>SkyStore</BarraEsquerda>
+            <BarraEsquerda>
+                <h2> SkyStore </h2>
+            </BarraEsquerda>
             <BarraCentro>       
             </BarraCentro>
             <BarraDireita>
-                <MenuImg src = {"../img/outline_shopping_cart_black_24dp.png"} >
-                </MenuImg>
-                <MenuImg src = {"../img/outline_account_circle_black_24dp.png"}>
-                </MenuImg>
+                <img src = {account}/>
+                <img src = {carrinho} />           
             </BarraDireita>
         </BarraHeader>
         </Div>
