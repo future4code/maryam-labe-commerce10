@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import carrinho from "../img/twotone_shopping_cart_white_24dp.png"
-import account from './img/twotone_account_circle_white_24dp.png'
-import terra from './img/Imagens-do-planeta-Terra-em-alta-resolução-6.jpg'
+import carrinho from '../img/twotone_shopping_cart_white_24dp.png'
+import account from '../img/twotone_account_circle_white_24dp.png'
+import terra from '../img/Imagens-do-planeta-Terra-em-alta-resolução-4.jpg'
 
 
 
@@ -43,12 +43,12 @@ const BarraDireita = styled.div`
 
 
 
-const Header = () => {
+function Header() {
     return (
-        <div>
+        <Div>
         <BarraHeader>
             <BarraEsquerda>
-                <h2> SpaceStore <h2>
+                <h2> SpaceStore </h2>
             </BarraEsquerda>
             <BarraCentro> 
                 <img src = {terra}/>      
@@ -58,7 +58,7 @@ const Header = () => {
                 <img src = {carrinho} />           
             </BarraDireita>
         </BarraHeader>
-        </div>
+        </Div>
     );
 };
 
