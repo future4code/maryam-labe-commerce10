@@ -1,15 +1,10 @@
 import React from 'react';
-<<<<<<< HEAD
-import Header from './Components/header';
-
-class App extends React.Component {
-=======
-import Header from './components/header';
+import Header from './Components/header2.js';
 import styled from 'styled-components';
-import containerProdutos from './components/produtos';
-import Produtos from './components/produtos';
+import containerProdutos from './Components/produtos.js';
+import Produtos from './Components/produtos.js';
 import { FiltrosContainer, FiltrosInput } from "./style";
-import Footer from './components/footer';
+import Footer from './Components/footer.js';
 
 const produto = [
   {
@@ -37,22 +32,6 @@ const produto = [
     photo: 'https://picsum.photos/200/200?a=4'
   }
 ]
-// class App extends React.Component {
-//   state = {
-//     produto: [{
-//         id: Date.now(),
-//         nome: "teste",
-//         preco: "123",
-//         foto:'https://picsum.photos/200/200'
-//     },
-//     {
-//         id: 1,
-//         nome: "outro teste",
-//         preco: "456",
-//         foto: ''
-//     }
-//     ]
-// }
 
 class App extends React.Component {
 
@@ -83,13 +62,10 @@ class App extends React.Component {
 
 
 
->>>>>>> b39c540f0072f7d0dc65120d52022740933a3049
   render() {
     return (
       <div>
         <Header/>
-<<<<<<< HEAD
-=======
         <FiltrosContainer>
           <label>Pesquisa: </label>
           <FiltrosInput
@@ -116,22 +92,9 @@ class App extends React.Component {
         </FiltrosContainer>       
         <Produtos />
         <Footer />
->>>>>>> b39c540f0072f7d0dc65120d52022740933a3049
       </div>
     );
   }
 }
 
-
-// function App() {
-//   return (
-//     <div>
-//     </div>
-//   );
-// }
-
-<<<<<<< HEAD
-export default App;
-=======
-export default App;
->>>>>>> b39c540f0072f7d0dc65120d52022740933a3049
+export default App

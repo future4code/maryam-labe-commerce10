@@ -5,10 +5,6 @@ import account from '../img/twotone_account_circle_white_24dp.png'
 import terra from '../img/Imagens-do-planeta-Terra-em-alta-resolução-4.jpg'
 
 
-
-
-
-
 const Div = styled.div`
     background-color: #17073D;
     border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
@@ -29,7 +25,7 @@ const BarraEsquerda = styled.div`
     margin-right: 200px; 
 `;
 const BarraCentro = styled.div`
-    width: %;
+    width: 33.333%;
     text-align: center;
 `;
 
