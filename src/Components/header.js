@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import carrinho from '../img/twotone_shopping_cart_white_24dp.png'
 import account from '../img/twotone_account_circle_white_24dp.png'
-import terra from '../img/Imagens-do-planeta-Terra-em-alta-resolução-6.jpg'
+import terra from '../img/Imagens-do-planeta-Terra-em-alta-resolução-4.jpg'
 
 
 
@@ -29,7 +29,7 @@ const BarraEsquerda = styled.div`
     margin-right: 200px; 
 `;
 const BarraCentro = styled.div`
-    width: %;
+    width: 33.333%;
     text-align: center;
 `;
 
