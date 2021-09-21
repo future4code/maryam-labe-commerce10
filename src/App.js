@@ -1,4 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
+import Header from './Components/header';
+
+class App extends React.Component {
+=======
 import Header from './components/header';
 import styled from 'styled-components';
 import containerProdutos from './components/produtos';
@@ -78,10 +83,13 @@ class App extends React.Component {
 
 
 
+>>>>>>> b39c540f0072f7d0dc65120d52022740933a3049
   render() {
     return (
       <div>
         <Header/>
+<<<<<<< HEAD
+=======
         <FiltrosContainer>
           <label>Pesquisa: </label>
           <FiltrosInput
@@ -108,6 +116,7 @@ class App extends React.Component {
         </FiltrosContainer>       
         <Produtos />
         <Footer />
+>>>>>>> b39c540f0072f7d0dc65120d52022740933a3049
       </div>
     );
   }
@@ -121,4 +130,8 @@ class App extends React.Component {
 //   );
 // }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> b39c540f0072f7d0dc65120d52022740933a3049
