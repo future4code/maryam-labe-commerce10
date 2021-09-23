@@ -29,7 +29,7 @@ const BarraEsquerda = styled.div`
     margin-right: 200px; 
 `;
 const BarraCentro = styled.div`
-    width: %;
+    width: 33.333%;
     text-align: center;
 `;
 
